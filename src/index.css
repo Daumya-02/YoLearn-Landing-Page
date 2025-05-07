@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+body{
+  overflow-x: hidden;
+}
+
+.horizontal-gradient{
+    mask-image: linear-gradient(
+        to right,
+        rgba(0,0,0,0),
+        rgba(0,0,0,1) 5%,
+        rgba(0,0,0,1) 95%,
+        rgba(0,0,0,0)
+    );
+}
+.gradient_image {
+    background: 
+      linear-gradient(to right, rgba(0, 119, 182, 1), rgba(0,119,182,0)),
+      linear-gradient(to left, rgba(0, 119, 182, 1), rgba(0,119,182,0)),
+      var(--image-url) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.final_cta{
+  background: 
+    linear-gradient(to right, #006E63CC, #006E63CC),
+    var(--image-url2) top center;
+  background-size: cover ;
+  background-repeat: no-repeat;
+}
+  
+.footer{
+  background: linear-gradient(to bottom, #0E479E, #051938);
+}
