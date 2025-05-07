@@ -1,5 +1,5 @@
 import React from "react";
-import Reviewbg from "../assets/ReviewBg.jpg";
+import ReviewBg from "../assets/ReviewBg.jpg";
 import Heading from "../components/Heading";
 import SubHeading from "../components/SubHeading";
 import Marquee from "../components/Marquee";
@@ -85,7 +85,7 @@ const Reviews = () => {
   return (
     <div
       style={{
-        "--image-url": `url(${Reviewbg})`,
+        "--image-url": `url(${ReviewBg})`,
       }}
       className="min-h-[100vh] gradient_image flex flex-col items-center py-10"
     >
