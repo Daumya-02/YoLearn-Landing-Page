@@ -1,5 +1,5 @@
 import React from "react";
-import Reviewbg from "../assets/Reviewbg.jpg";
+import Reviewbg from "../assets/ReviewBg.jpg";
 import Heading from "../components/Heading";
 import SubHeading from "../components/SubHeading";
 import Marquee from "../components/Marquee";
