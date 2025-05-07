@@ -1,5 +1,5 @@
 import React from "react";
-import ChatbotImg from "../assets/Chatbotimg.png";
+import ChatbotImg from "../assets/ChatbotImg.png";
 
 const Chatbot = () => {
   return (
