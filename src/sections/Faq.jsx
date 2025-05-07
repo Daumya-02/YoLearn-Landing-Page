@@ -75,7 +75,7 @@ const Faq = () => {
           className="w-full h-[80vh] md:w-[30vw] overflow-hidden rounded-lg bg-center bg-cover border-solid border mx-9 "
         ></div>
         {/* right part */}
-        <div className="w-full h-[80vh] md:w-[65vw] rounded-lg relative">
+        <div className="w-full h-[80vh] md:w-[65vw] rounded-lg relative overflow-y-hidden">
           <Accordion heading="Workspace and tools" arr={workspacesFaq} />
           <Accordion heading="Pricing and payments" arr={pricingfaq} />
           <Accordion heading="Curriculum & Pedagogy" arr={curriculumFaq} />
