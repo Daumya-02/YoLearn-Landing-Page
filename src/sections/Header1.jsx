@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import { FaAngleDown } from "react-icons/fa6";
 import en from "../assets/en.png"
 import ind from "../assets/ind.png"

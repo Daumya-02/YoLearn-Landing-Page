@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import Heading from "../components/Heading";
 import SubHeading from "../components/SubHeading";
 import BlobImage from "../assets/BlobImage.png";

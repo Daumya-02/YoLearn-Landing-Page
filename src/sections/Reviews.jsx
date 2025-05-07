@@ -7,7 +7,6 @@ import user1 from "../assets/reviews/user1.png";
 import user2 from "../assets/reviews/user2.png";
 import user3 from "../assets/reviews/user3.png";
 import CountUp from "react-countup";
-import { useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 const Reviews = () => {
