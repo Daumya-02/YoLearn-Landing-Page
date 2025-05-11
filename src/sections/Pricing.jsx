@@ -57,7 +57,7 @@ const Pricing = () => {
   ];
 
   return (
-    <div className="min-h-[100vh] bg-[#FFFEFA] flex flex-col items-center py-10 px-20 text-center">
+    <div className="min-h-[100vh] bg-[#FFFEFA] flex flex-col items-center py-10 px-10 md:px-20 text-center">
       <Heading text="Teach Better. Less Effort. More Impact." color="#1A1B41" />
       <SubHeading
         text="Join thousands of educators across who enhance their teaching with AI powered tools on YOlearn"

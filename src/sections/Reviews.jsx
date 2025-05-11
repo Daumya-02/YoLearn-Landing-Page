@@ -86,7 +86,7 @@ const Reviews = () => {
       style={{
         "--image-url": `url(${ReviewBg})`,
       }}
-      className="min-h-[100vh] gradient_image flex flex-col items-center py-10"
+      className="min-h-[100vh] gradient_image flex flex-col items-center py-10 text-center"
     >
       <Heading text="TEACHER SUCCESS STORIES" color="#FFFFFF" />
       <SubHeading
